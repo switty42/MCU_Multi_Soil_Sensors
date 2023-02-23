@@ -1,0 +1,38 @@
+//12-1-22  Datacake function decoder - Stephen Witty put together by looking at various examples
+
+//V27 12-1-22 Moving from two byte sensor feeds to one byte
+
+function Decoder(payload, port) {
+    
+    console.log("Version 27");
+    
+    //This is 1 byte inbound sensor data - 5 sensor max
+    var sensor0=payload[0];
+    var sensor1=payload[1];
+    var sensor2=payload[2];
+    var sensor3=payload[3];
+    var sensor4=payload[4];
+    
+    return [
+        {
+            field:"SENSOR1",
+            value: sensor0
+        },    
+        {    
+            field:"SENSOR2",
+            value: sensor1
+        },
+        {    
+            field:"SENSOR3",
+            value: sensor2
+        },
+        {    
+            field:"SENSOR4",
+            value: sensor3
+        },
+        {    
+            field:"SENSOR5",
+            value: sensor4
+        }
+    ];
+}

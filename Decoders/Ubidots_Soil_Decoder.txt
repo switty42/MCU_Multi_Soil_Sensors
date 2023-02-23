@@ -1,0 +1,16 @@
+//Stephen put together based on examples
+//12-18-22 - 5 sensors, each a single byte
+
+function Decoder(payload, port) {
+    var decoded={}
+    console.log("Version 26");
+    
+    //Data comes in 5 bytes (1 byte per sensor), first sensor starts with byte 0
+    decoded.sensor1=payload[0];
+    decoded.sensor2=payload[1];
+    decoded.sensor3=payload[2];
+    decoded.sensor4=payload[3];
+    decoded.sensor5=payload[4];
+    
+    return decoded;
+}      
