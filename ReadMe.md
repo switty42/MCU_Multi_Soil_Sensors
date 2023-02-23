@@ -10,7 +10,7 @@ This project is demo/POC ready only.
 - The Mycelium Networks Builder Program for support and encouragement
 - RAK Wisblock for excellent hardware offerings and code examples
 
-<img src="Pics/Soil_Sensor2.jpg"> width="200"> &nbsp; <img src="Pics/Soil_Sensor1.jpg" width="200"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="Pics/Mycelium.png" width="100">
+<img src="Pics/Soil_Sensor2.jpg" width="250"> &nbsp; <img src="Pics/Soil_Sensor1.jpg" width="250"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="Pics/Mycelium.png" width="100">
 
 ### Demo Link:
 https://www.youtube.com/watch?v=1ZjJgnmptXM
